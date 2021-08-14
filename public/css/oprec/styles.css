@@ -1,0 +1,112 @@
+/* Typography */
+
+html {
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 2em;
+}
+
+.icons-social ul {
+	list-style-type: none;
+	text-align: left;
+	margin: auto;
+	border: #fafafa dashed;
+}
+
+.icons-social li {
+	margin:  10px;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	margin-top: 20px;
+}
+
+main > .tagline {
+	font-size: 1.2rem;
+	margin: 1.5rem 0;
+}
+
+
+
+.kiri {
+	text-align:  left;
+	margin: auto auto 50px auto;
+	color:  #fafafa;
+}
+
+.title {
+	color: #fafafa;
+}
+
+div > .subtitle {
+	color: #fafafa;
+}
+
+div > .subtitle:not(:last-child) {
+	margin-bottom: 2.5rem;
+}
+
+div > .subtitle strong {
+	color: #fafafa;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+ul > strong {
+	color: #fafafa;
+}
+
+.icons-social i {
+	padding: 10px;
+	width: 65px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
